@@ -1,0 +1,47 @@
+
+ul.bjqs{
+    position:relative; 
+     list-style:none;
+     padding:0;
+     margin:0;
+     overflow:visible; 
+     display:none;  
+     min-height: 150px;
+}
+li.bjqs-slide{
+    position:absolute;
+    display:none;
+}
+ul.bjqs-controls{
+    list-style:none;
+    margin:0;
+    padding:0;
+    z-index:9999;}
+
+ul.bjqs-controls.v-centered li a{
+	position:absolute;
+	width: 36px;
+	height: 34px;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a{
+	right:-50px;
+	background-image: url('../img/fancybox/fancybox_sprite.png');
+	background-position: 0 -72px;
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a{
+	left:-50px;
+	background-image: url('../img/fancybox/fancybox_sprite.png');
+	background-position: 0 -36px;
+}
+
+ol.bjqs-markers{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    width:100%;}
+ol.bjqs-markers.h-centered{
+    text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
